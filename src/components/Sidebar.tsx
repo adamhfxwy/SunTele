@@ -156,6 +156,7 @@ const Sidebar = ({ onToggle, activePath = '/' }: SidebarProps) => {
     },
     { icon: MountainSnow, label: '日剧', href: '/douban?type=tv&tag=日剧' },
     { icon: VenetianMask, label: '日漫', href: '/douban?type=tv&tag=日本动画' },
+    { icon: MountainSnow, label: '台剧', href: '/douban?type=tv&tag=台剧' },
   ];
 
   return (
